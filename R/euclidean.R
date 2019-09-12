@@ -41,5 +41,20 @@ stopifnot(is.numeric(firstNumber)||is.numeric(secondNumber))
 return(max(numbers_list))
 }
 
+# euclidean <- function(a, b) {
+#   value_one <- a
+#   value_two <- b
+#
+#   while(value_two != 0) {
+#     reminder_value <- value_one %% value_two
+#     value_one <- value_two
+#     value_two <- reminder_value
+#   }
+#   return(value_one)
+# }
+#
+# euclidean(123612, 13892347912)
+# euclidean(100, 1000)
+
 
 
