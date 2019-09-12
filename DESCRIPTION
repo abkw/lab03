@@ -1,0 +1,14 @@
+Package: lab3
+Type: Package
+Title: lab3 package applies euclidean and dijkstra algorithms
+Version: 0.1.0
+Authors@R: c(
+        person("Mohammed","Bakheet",email="mohba508@student.liu.se",role=c("aut","cre")),
+        person("ali","ahmed",email="ali@me.com",role=c("aut")),
+        person("ali","ahmed",email="ali@ahmed.com",role=c("aut")))
+Maintainer: <mohba508@student.liu.se>
+Description: This package applies euclidean and dijkstra algorithms
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
