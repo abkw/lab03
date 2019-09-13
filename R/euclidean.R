@@ -1,8 +1,9 @@
-#' The euclidean algorithm.
-#'
+#' The euclidean algorithm that finds the
+#' greates common divisor of two integers and Dijkstra's shortest path algorithm in a graph..
 #' @param firstNumber A number.
 #' @param secondNumber A number.
 #' @return The value of euclidean algorithm calculation \code{firstNumber} and \code{secondNumber}.
+#' @seealso \code{\link{https://en.wikipedia.org/wiki/Euclidean_algorithm}}
 #' @examples
 #' euclidean(100,1000 )
 
