@@ -1,2 +1,2 @@
 #this is for testing euclidean function
-euclidean("test",40)
+# euclidean("test",40)
