@@ -1,17 +1,21 @@
-#' The euclidean algorithm that finds the
-#' greates common divisor of two integers and Dijkstra's shortest path algorithm in a graph..
-#' @param firstNumber A number.
-#' @param secondNumber A number.
-#' @return The value of euclidean algorithm calculation \code{firstNumber} and \code{secondNumber}.
-#' @seealso \code{\link{https://en.wikipedia.org/wiki/Euclidean_algorithm}}
+#' Find the greatest common divisor of two numbers.
+#'
+#' @param a A Numerical value
+#' @param b A Numerical Value
+#'
+#' @return Gratest common divior of given values
+#' @export
+#'
 #' @examples
-#' euclidean(100,1000 )
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
+#'
 
-euclidean <- function(firstNumber, secondNumber){
+euclidean <- function(a, b){
   gcd <- numeric()
   numbers <- numeric()
   numbers_list <- vector()
-stopifnot(is.numeric(firstNumber)||is.numeric(secondNumber))
+  stopifnot(is.numeric(firstNumber)||is.numeric(secondNumber))
   if (firstNumber==0){
     gcd <- secondNumber
   }
@@ -21,15 +25,15 @@ stopifnot(is.numeric(firstNumber)||is.numeric(secondNumber))
   if (firstNumber==secondNumber){
     gcd <- firstNumber
   }
- if (firstNumber > secondNumber){
-   for (i in 1:secondNumber){
-     if (firstNumber%%i == 0){
-       if (secondNumber/i == 0){
-         numbers_list <- c(numbers_list,i)
-       }
-     }
-   }
- }
+  if (firstNumber > secondNumber){
+    for (i in 1:secondNumber){
+      if (firstNumber%%i == 0){
+        if (secondNumber/i == 0){
+          numbers_list <- c(numbers_list,i)
+        }
+      }
+    }
+  }
   if (secondNumber > firstNumber){
     for (i in 1:firstNumber){
       if (secondNumber%%i == 0){
@@ -39,23 +43,19 @@ stopifnot(is.numeric(firstNumber)||is.numeric(secondNumber))
       }
     }
   }
-return(max(numbers_list))
+  return(max(numbers_list))
 }
+euclidean <- function(a, b) {
+  value_one <- a
+  value_two <- b
 
-# euclidean <- function(a, b) {
-#   value_one <- a
-#   value_two <- b
-#
-#   while(value_two != 0) {
-#     reminder_value <- value_one %% value_two
-#     value_one <- value_two
-#     value_two <- reminder_value
-#   }
-#   return(value_one)
-# }
-#
-# euclidean(123612, 13892347912)
-# euclidean(100, 1000)
+  while(value_two != 0) {
+    reminder_value <- value_one %% value_two
+    value_one <- value_two
+    value_two <- reminder_value
+  }
+  return(value_one)
+}
 
 
 

@@ -4,18 +4,17 @@
 \name{euclidean}
 \alias{euclidean}
 \alias{euclidean-package}
-\title{The euclidean algorithm that finds the
-greates common divisor of two integers and Dijkstra's shortest path algorithm in a graph..}
+\title{Find the greatest common divisor of two numbers.}
 \usage{
-euclidean(firstNumber, secondNumber)
+euclidean(a, b)
 }
 \arguments{
-\item{firstNumber}{A number.}
+\item{a}{A Numerical value}
 
-\item{secondNumber}{A number.}
+\item{b}{A Numerical Value}
 }
 \value{
-The value of euclidean algorithm calculation \code{firstNumber} and \code{secondNumber}.
+Gratest common divior of given values
 }
 \description{
 This package provides two categories of important functions:
@@ -30,8 +29,7 @@ NA
 }
 
 \examples{
-euclidean(100,1000 )
-}
-\seealso{
-\code{\link{https://en.wikipedia.org/wiki/Euclidean_algorithm}}
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
+
 }
