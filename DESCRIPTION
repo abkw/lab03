@@ -7,8 +7,11 @@ Authors@R: c(
         person("Mudith","Chathuranga",email="kogsi273@student.liu.se",role=c("aut")),
         person("ali","ahmed",email="ali@ahmed.com",role=c("aut")))
 Maintainer: <mohba508@student.liu.se>
-Description: This package applies euclidean and dijkstra algorithms
+Description: This package applies euclidean and dijkstra algorithms.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Depends: R (>= 2.10)
+Suggests: 
+    testthat
