@@ -5,7 +5,7 @@
 #'
 #' @return Gratest common divior of given values
 #' @export
-#'
+#' @seealso \code{\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}}
 #' @examples
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)

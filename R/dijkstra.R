@@ -1,3 +1,4 @@
+library(igraph)
 #' The algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph
 #'
 #' @param graph A Data Frame
@@ -5,7 +6,7 @@
 #'
 #' @return Return the shortest path to every other node from the starting node as a vector.
 #' @export
-#'
+#' @seealso \code{\url{https://en.wikipedia.org/wiki/Graph_(mathematics)}}
 #' @import igraph
 #' @examples
 #' wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
@@ -14,7 +15,7 @@
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
 #'
-library(igraph)
+
 dijkstra <- function(graph, init_node) {
 
   if (!is.data.frame(graph)) {

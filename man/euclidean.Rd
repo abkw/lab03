@@ -33,3 +33,6 @@ euclidean(123612, 13892347912)
 euclidean(100, 1000)
 
 }
+\seealso{
+\code{\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}}
+}
