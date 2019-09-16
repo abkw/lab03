@@ -26,5 +26,5 @@ dijkstra(wiki_graph, 3)
 
 }
 \seealso{
-\code{\url{https://en.wikipedia.org/wiki/Graph_(mathematics)}}
+\url{https://en.wikipedia.org/wiki/Graph}
 }

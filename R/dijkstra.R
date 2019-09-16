@@ -6,7 +6,7 @@ library(igraph)
 #'
 #' @return Return the shortest path to every other node from the starting node as a vector.
 #' @export
-#' @seealso \code{\url{https://en.wikipedia.org/wiki/Graph_(mathematics)}}
+#' @seealso \url{https://en.wikipedia.org/wiki/Graph}
 #' @import igraph
 #' @examples
 #' wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
