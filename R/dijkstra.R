@@ -14,7 +14,7 @@
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
 #'
-
+library(igraph)
 dijkstra <- function(graph, init_node) {
 
   if (!is.data.frame(graph)) {
@@ -31,6 +31,6 @@ dijkstra <- function(graph, init_node) {
 
   g1 <- graph.data.frame(d1, directed = FALSE)
   temp1 <- shortest.paths(g1, v = init_node, weights = w)
-  return(temp1)
+  return(as.vector(temp1))
 }
 
