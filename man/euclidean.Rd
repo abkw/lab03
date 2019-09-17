@@ -31,5 +31,7 @@ NA
 \examples{
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
-
+}
+\seealso{
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
