@@ -11,40 +11,6 @@
 #' euclidean(100, 1000)
 #' @seealso \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 
-euclidean <- function(a, b){
-  gcd <- numeric()
-  numbers <- numeric()
-  numbers_list <- vector()
-  stopifnot(is.numeric(firstNumber)||is.numeric(secondNumber))
-  if (firstNumber==0){
-    gcd <- secondNumber
-  }
-  if (secondNumber==0){
-    gcd <- firstNumber
-  }
-  if (firstNumber==secondNumber){
-    gcd <- firstNumber
-  }
-  if (firstNumber > secondNumber){
-    for (i in 1:secondNumber){
-      if (firstNumber%%i == 0){
-        if (secondNumber/i == 0){
-          numbers_list <- c(numbers_list,i)
-        }
-      }
-    }
-  }
-  if (secondNumber > firstNumber){
-    for (i in 1:firstNumber){
-      if (secondNumber%%i == 0){
-        if (firstNumber%%i == 0){
-          numbers_list <- c(numbers_list,i)
-        }
-      }
-    }
-  }
-  return(max(numbers_list))
-}
 euclidean <- function(a, b) {
   value_one <- a
   value_two <- b
