@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: c(
         person("Mohammed","Bakheet",email="mohba508@student.liu.se",role=c("aut","cre")),
         person("Mudith","Chathuranga",email="kogsi273@student.liu.se",role=c("aut")),
-        person("ali","ahmed",email="ali@ahmed.com",role=c("aut")))
+        person("Nikodimos","Gezahegn",email="nikge687@student.liu.se",role=c("aut")))
 Maintainer: <mohba508@student.liu.se>
 Description: This package applies euclidean and dijkstra algorithms.
 License: GPL-3
