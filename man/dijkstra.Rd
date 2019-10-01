@@ -2,7 +2,7 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{The algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph}
+\title{The Dijkstra Algorithm}
 \usage{
 dijkstra(graph, init_node)
 }
@@ -15,7 +15,7 @@ dijkstra(graph, init_node)
 Return the shortest path to every other node from the starting node as a vector.
 }
 \description{
-The algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph
+Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph.
 }
 \examples{
 wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
@@ -26,5 +26,5 @@ dijkstra(wiki_graph, 3)
 
 }
 \seealso{
-\url{https://en.wikipedia.org/wiki/Graph}
+More informartion can be found in \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }

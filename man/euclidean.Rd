@@ -4,7 +4,7 @@
 \name{euclidean}
 \alias{euclidean}
 \alias{euclidean-package}
-\title{Find the greatest common divisor of two numbers.}
+\title{The Euclidean Algorithm}
 \usage{
 euclidean(a, b)
 }
@@ -17,6 +17,8 @@ euclidean(a, b)
 Gratest common divior of given values
 }
 \description{
+Euclidean Algorithm is an efficient method for computing the greatest common divisor (GCD) of two numbers, the largest number that divides both of them without leaving a remainder.
+
 This package provides two categories of important functions:
 euclidean and dijkstra.
 }

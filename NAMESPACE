@@ -2,4 +2,3 @@
 
 export(dijkstra)
 export(euclidean)
-import(igraph)
